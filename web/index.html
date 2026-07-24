@@ -40,9 +40,7 @@ nav button.active { background: #0f3460; border-color: #e94560; }
 }
 .effect-list { margin-bottom: 12px; }
 .effect-item, .find-effects label, .ing-item {
-  display: block; padding: 4px 8px;
-  margin-bottom: 4px; margin-top: 4px;
-  cursor: pointer;
+  display: block; padding: 4px 8px; margin-bottom: 4px; cursor: pointer;
   background: #16213e; border: 1px solid #0f3460; border-radius: 3px;
   break-inside: avoid;
 }
@@ -50,7 +48,7 @@ nav button.active { background: #0f3460; border-color: #e94560; }
 .find-effects input[type=checkbox] { display: none; }
 .find-effects label:has(input:checked), .ing-item.owned { background: #0f3460; border-color: #e94560; }
 .effect-item.active { background: #0f3460; border-color: #e94560; }
-.ing-sub { padding: 3px 8px 3px 20px; font-size: 12px; color: #ccc; }
+.ing-sub { padding: 0px 8px 0px 20px; font-size: 12px; color: #ccc; margin-bottom: 1px;}
 .mobile-toggle { display: flex; gap: 4px; margin-bottom: 10px; position: sticky; top: 0; z-index: 10; background: #1a1a2e; padding: 6px 0; }
 .mobile-toggle button {
   flex: 1; padding: 6px; border: 1px solid #0f3460; background: #16213e;
@@ -60,7 +58,7 @@ nav button.active { background: #0f3460; border-color: #e94560; }
 .mobile-hidden { display: none; }
 .mobile-accordion { display: none; }
 @media (max-width: 599px) {
-  .mobile-accordion.shown { display: block; }
+  .mobile-accordion.shown { display: block; margin-bottom: 8px; }
   .controls { flex-direction: column; align-items: center; }
   .tab-desc { width: 100%; text-align: center; }
 }
