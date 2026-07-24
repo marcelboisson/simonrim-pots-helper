@@ -57,18 +57,16 @@ nav button.active { background: #0f3460; border-color: #e94560; }
 .mobile-toggle button.active { background: #0f3460; border-color: #e94560; color: #e0e0e0; }
 .mobile-hidden { display: none; }
 .mobile-accordion { display: none; }
+.desktop-detail { display: none; margin-top: 12px; }
+.ing-table { width: 100%; border-collapse: collapse; }
+.ing-table th, .ing-table td { padding: 5px 8px; border-bottom: 1px solid #0f3460; text-align: left; }
+.ing-table th { color: #a0c4ff; }
 @media (max-width: 599px) {
   .mobile-accordion.shown { display: block; margin-bottom: 8px; }
   .controls { flex-direction: column; align-items: center; }
   .tab-desc { width: 100%; text-align: center; }
 }
-.desktop-detail { display: none; margin-top: 12px; }
-.ing-table { width: 100%; border-collapse: collapse; }
-.ing-table th, .ing-table td { padding: 5px 8px; border-bottom: 1px solid #0f3460; text-align: left; }
-.ing-table th { color: #a0c4ff; }
 @media (min-width: 600px) {
-  .mobile-toggle { display: none; }
-  .mobile-hidden { display: block; }
   .effect-list { columns: 220px; column-gap: 4px; }
   .desktop-detail.shown { display: block; }
   .controls-actions { margin-left: auto; }
