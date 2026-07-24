@@ -113,7 +113,7 @@ function app() {
   return {
     effects: [],
     ingredients: [],
-    tab: 'brew',
+    tab: (['brew', 'effects', 'find'].includes(location.hash.slice(1)) ? location.hash.slice(1) : 'brew'),
     owned: [],
     allowMixed: false,
     activeEffect: null,
@@ -122,6 +122,11 @@ function app() {
     findView: 'pick',
 
     async init() {
+      this.$watch('tab', t => history.replaceState(null, '', '#' + t));
+      window.addEventListener('hashchange', () => {
+        const h = location.hash.slice(1);
+        if (['brew', 'effects', 'find'].includes(h)) this.tab = h;
+      });
       const d = await fetch('./data.json').then(r => r.json());
       this.effects = d.effects;
       this.ingredients = d.ingredients;
