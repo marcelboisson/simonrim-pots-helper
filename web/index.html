@@ -34,10 +34,11 @@ nav button.active { background: #0f3460; border-color: #e94560; }
 }
 .potion .ings { font-weight: 600; margin-bottom: 2px; }
 .potion .effects { color: #a0c4ff; font-size: 12px; }
-.effect-list, .find-effects, .ing-grid {
+.find-effects, .ing-grid {
   columns: 220px; column-gap: 4px;
   margin-bottom: 12px;
 }
+.effect-list { margin-bottom: 12px; }
 .effect-item, .find-effects label, .ing-item {
   display: block; padding: 4px 8px; margin-bottom: 4px; cursor: pointer;
   background: #16213e; border: 1px solid #0f3460; border-radius: 3px;
@@ -47,10 +48,26 @@ nav button.active { background: #0f3460; border-color: #e94560; }
 .find-effects input[type=checkbox] { display: none; }
 .find-effects label:has(input:checked), .ing-item.owned { background: #0f3460; border-color: #e94560; }
 .effect-item.active { background: #0f3460; border-color: #e94560; }
-#effect-detail { margin-top: 12px; }
+.ing-sub { padding: 3px 8px 3px 20px; font-size: 12px; color: #ccc; }
+.mobile-toggle { display: flex; gap: 4px; margin-bottom: 10px; }
+.mobile-toggle button {
+  flex: 1; padding: 6px; border: 1px solid #0f3460; background: #16213e;
+  color: #ccc; cursor: pointer; border-radius: 3px; font-size: 13px;
+}
+.mobile-toggle button.active { background: #0f3460; border-color: #e94560; color: #e0e0e0; }
+.mobile-hidden { display: none; }
+.mobile-accordion { display: none; }
+@media (max-width: 599px) { .mobile-accordion.shown { display: block; } }
+.desktop-detail { display: none; margin-top: 12px; }
 .ing-table { width: 100%; border-collapse: collapse; }
 .ing-table th, .ing-table td { padding: 5px 8px; border-bottom: 1px solid #0f3460; text-align: left; }
 .ing-table th { color: #a0c4ff; }
+@media (min-width: 600px) {
+  .mobile-toggle { display: none; }
+  .mobile-hidden { display: block; }
+  .effect-list { columns: 220px; column-gap: 4px; }
+  .desktop-detail.shown { display: block; }
+}
 .ing-tip {
   position: fixed; z-index: 1000;
   left: calc(var(--mx, 0px) + 14px); top: calc(var(--my, 0px) + 14px);
@@ -88,28 +105,34 @@ nav button.active { background: #0f3460; border-color: #e94560; }
         Allow mixed effects
       </label>
     </div>
-    <div class="ing-grid">
-      <template x-for="(ing, i) in ingredients" :key="i">
-        <div class="ing-item" :class="{owned: isOwned(i)}" @click="toggle(i)">
-          <span x-text="ing.name"></span>
-          <div class="ing-tip">
-            <template x-for="e in ing.effects" :key="e">
-              <div class="tip-name" x-text="effects[e]"></div>
-            </template>
+    <div class="mobile-toggle">
+      <button :class="{active: brewView === 'pick'}" @click="brewView = 'pick'">Ingredients</button>
+      <button :class="{active: brewView === 'potions'}" @click="brewView = 'potions'" x-text="`Potions (${potions.length})`"></button>
+    </div>
+    <div :class="{'mobile-hidden': brewView !== 'pick'}">
+      <div class="ing-grid">
+        <template x-for="(ing, i) in ingredients" :key="i">
+          <div class="ing-item" :class="{owned: isOwned(i)}" @click="toggle(i)">
+            <span x-text="ing.name"></span>
+            <div class="ing-tip">
+              <template x-for="e in ing.effects" :key="e">
+                <div class="tip-name" x-text="effects[e]"></div>
+              </template>
+            </div>
           </div>
-        </div>
-      </template>
+        </template>
+      </div>
     </div>
-<div class="potions" x-show="potions.length > 0">
-      <template x-for="(pot, j) in potions" :key="j">
-        <div class="potion">
-          <div class="ings" x-text="pot.ingredients.map(i => i.name).join(' + ')"></div>
-          <div class="effects" x-text="pot.effects.join(', ')"></div>
-        </div>
-      </template>
+    <div :class="{'mobile-hidden': brewView !== 'potions'}">
+      <div class="potions" x-show="potions.length > 0">
+        <template x-for="(pot, j) in potions" :key="j">
+          <div class="potion">
+            <div class="ings" x-text="pot.ingredients.map(i => i.name).join(' + ')"></div>
+            <div class="effects" x-text="pot.effects.join(', ')"></div>
+          </div>
+        </template>
+      </div>
     </div>
-    <p x-show="owned.length === 0" style="color:#666;margin-top:8px">
-    </p>
   </div>
 
   <!-- Effects tab -->
@@ -117,11 +140,18 @@ nav button.active { background: #0f3460; border-color: #e94560; }
     <div class="controls"><span class="tab-desc">Select an effect to see which ingredients provide it.</span></div>
     <div class="effect-list">
       <template x-for="(eff, i) in effects" :key="i">
-        <div class="effect-item" :class="{active: activeEffect === i}"
-          @click="selectEffect(i)" x-text="eff"></div>
+        <div style="break-inside: avoid">
+          <div class="effect-item" :class="{active: activeEffect === i}"
+            @click="selectEffect(i)" x-text="eff"></div>
+          <div class="mobile-accordion" :class="{'shown': activeEffect === i}">
+            <template x-for="ing in activeIngredients" :key="ing.name">
+              <div class="ing-sub" x-text="ing.name"></div>
+            </template>
+          </div>
+        </div>
       </template>
     </div>
-    <div id="effect-detail" x-show="activeEffect !== null">
+    <div class="desktop-detail" :class="{'shown': activeEffect !== null}">
       <h3 x-text="activeEffect !== null ? effects[activeEffect] : ''"
         style="margin-bottom:8px;color:#a0c4ff"></h3>
       <table class="ing-table">
@@ -138,25 +168,33 @@ nav button.active { background: #0f3460; border-color: #e94560; }
   <!-- Find tab -->
   <div x-show="tab === 'find'">
     <div class="controls"><span class="tab-desc">Select effects to find ingredient combinations that provide them.</span></div>
-    <div class="find-effects">
-      <template x-for="(eff, i) in effects" :key="i">
-        <label>
-          <input type="checkbox" :checked="isSelectedEffect(i)" @change="toggleSelectedEffect(i)">
-          <span x-text="eff"></span>
-        </label>
-      </template>
+    <div class="mobile-toggle">
+      <button :class="{active: findView === 'pick'}" @click="findView = 'pick'">Effects</button>
+      <button :class="{active: findView === 'potions'}" @click="findView = 'potions'" x-text="`Potions (${findResults.length})`"></button>
     </div>
-    <div class="potions" x-show="findResults.length > 0">
-      <template x-for="(pot, j) in findResults" :key="j">
-        <div class="potion">
-          <div class="ings" x-text="pot.ingredients.map(i => i.name).join(' + ')"></div>
-          <div class="effects" x-text="pot.effects.join(', ')"></div>
-        </div>
-      </template>
+    <div :class="{'mobile-hidden': findView !== 'pick'}">
+      <div class="find-effects">
+        <template x-for="(eff, i) in effects" :key="i">
+          <label>
+            <input type="checkbox" :checked="isSelectedEffect(i)" @change="toggleSelectedEffect(i)">
+            <span x-text="eff"></span>
+          </label>
+        </template>
+      </div>
     </div>
-    <p x-show="selectedEffects.length > 0 && findResults.length === 0" style="color:#666">
-      No combos produce all selected effects.
-    </p>
+    <div :class="{'mobile-hidden': findView !== 'potions'}">
+      <div class="potions" x-show="findResults.length > 0">
+        <template x-for="(pot, j) in findResults" :key="j">
+          <div class="potion">
+            <div class="ings" x-text="pot.ingredients.map(i => i.name).join(' + ')"></div>
+            <div class="effects" x-text="pot.effects.join(', ')"></div>
+          </div>
+        </template>
+      </div>
+      <p x-show="selectedEffects.length > 0 && findResults.length === 0" style="color:#666">
+        No combos produce all selected effects.
+      </p>
+    </div>
   </div>
 
 </div>

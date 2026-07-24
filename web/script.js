@@ -118,6 +118,8 @@ function app() {
     allowMixed: false,
     activeEffect: null,
     selectedEffects: [],
+    brewView: 'pick',
+    findView: 'pick',
 
     async init() {
       const d = await fetch('./data.json').then(r => r.json());
