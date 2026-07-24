@@ -40,7 +40,9 @@ nav button.active { background: #0f3460; border-color: #e94560; }
 }
 .effect-list { margin-bottom: 12px; }
 .effect-item, .find-effects label, .ing-item {
-  display: block; padding: 4px 8px; margin-bottom: 4px; cursor: pointer;
+  display: block; padding: 4px 8px;
+  margin-bottom: 4px; margin-top: 4px;
+  cursor: pointer;
   background: #16213e; border: 1px solid #0f3460; border-radius: 3px;
   break-inside: avoid;
 }
@@ -57,7 +59,11 @@ nav button.active { background: #0f3460; border-color: #e94560; }
 .mobile-toggle button.active { background: #0f3460; border-color: #e94560; color: #e0e0e0; }
 .mobile-hidden { display: none; }
 .mobile-accordion { display: none; }
-@media (max-width: 599px) { .mobile-accordion.shown { display: block; } }
+@media (max-width: 599px) {
+  .mobile-accordion.shown { display: block; }
+  .controls { flex-direction: column; align-items: center; }
+  .tab-desc { width: 100%; }
+}
 .desktop-detail { display: none; margin-top: 12px; }
 .ing-table { width: 100%; border-collapse: collapse; }
 .ing-table th, .ing-table td { padding: 5px 8px; border-bottom: 1px solid #0f3460; text-align: left; }
@@ -67,6 +73,7 @@ nav button.active { background: #0f3460; border-color: #e94560; }
   .mobile-hidden { display: block; }
   .effect-list { columns: 220px; column-gap: 4px; }
   .desktop-detail.shown { display: block; }
+  .controls-actions { margin-left: auto; }
 }
 .ing-tip {
   position: fixed; z-index: 1000;
@@ -87,6 +94,7 @@ nav button.active { background: #0f3460; border-color: #e94560; }
 .tip-name { color: #e0e0e0; padding: 2px 0; }
 [x-cloak] { display: none !important; }
 .tab-desc { color: #888; font-size: 13px; }
+.controls-actions { display: flex; gap: 8px; align-items: center; }
 </style>
 </head>
 <body x-data="app()" x-cloak>
@@ -101,11 +109,13 @@ nav button.active { background: #0f3460; border-color: #e94560; }
   <div x-show="tab === 'brew'">
     <div class="controls">
       <span class="tab-desc">Select ingredients you own to see valid potions.</span>
-      <button style="margin-left: auto" @click="reset()">Reset</button>
-      <label class="toggle-label">
-        <input type="checkbox" :checked="allowMixed" @change="toggleMixed()">
-        Allow mixed effects
-      </label>
+      <div class="controls-actions">
+        <button @click="reset()">Reset</button>
+        <label class="toggle-label">
+          <input type="checkbox" :checked="!allowMixed" @change="toggleMixed()">
+          Pure only
+        </label>
+      </div>
     </div>
     <div class="mobile-toggle">
       <button :class="{active: brewView === 'pick'}" @click="brewView = 'pick'">Ingredients</button>
@@ -169,7 +179,16 @@ nav button.active { background: #0f3460; border-color: #e94560; }
 
   <!-- Find tab -->
   <div x-show="tab === 'find'">
-    <div class="controls"><span class="tab-desc">Select effects to find ingredient combinations that provide them.</span></div>
+    <div class="controls">
+      <span class="tab-desc">Select effects to find ingredient combinations that provide them.</span>
+      <div class="controls-actions">
+        <button @click="selectedEffects = []">Reset</button>
+        <label class="toggle-label">
+          <input type="checkbox" :checked="!allowMixed" @change="toggleMixed()">
+          Pure only
+        </label>
+      </div>
+    </div>
     <div class="mobile-toggle">
       <button :class="{active: findView === 'pick'}" @click="findView = 'pick'">Effects</button>
       <button :class="{active: findView === 'potions'}" @click="findView = 'potions'" x-text="`Potions (${findResults.length})`"></button>

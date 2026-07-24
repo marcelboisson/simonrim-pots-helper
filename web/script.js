@@ -172,7 +172,8 @@ function app() {
     isSelectedEffect(i) { return this.selectedEffects.includes(i); },
 
     get findResults() {
-      return findCombos(this.ingredients, this.effects, this.selectedEffects);
+      const r = findCombos(this.ingredients, this.effects, this.selectedEffects);
+      return this.allowMixed ? r : filterPure(r);
     },
   };
 }
