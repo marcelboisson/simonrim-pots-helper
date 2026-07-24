@@ -1,0 +1,1839 @@
+{
+  "effects": [
+    "Become Ethereal",
+    "Burden",
+    "Calm",
+    "Command",
+    "Cure Disease",
+    "Damage Armor",
+    "Damage Health",
+    "Damage Magicka",
+    "Damage Stamina",
+    "Damage Weapon",
+    "Fear",
+    "Fortify Alteration Power",
+    "Fortify Armor Rating",
+    "Fortify Barter",
+    "Fortify Block",
+    "Fortify Carry Weight",
+    "Fortify Conjuration Power",
+    "Fortify Destruction Power",
+    "Fortify Health",
+    "Fortify Health Regeneration",
+    "Fortify Illusion Power",
+    "Fortify Lockpicking",
+    "Fortify Magicka",
+    "Fortify Magicka Regeneration",
+    "Fortify Marksman",
+    "Fortify One-handed",
+    "Fortify Pickpocket",
+    "Fortify Power Attacks",
+    "Fortify Restoration Power",
+    "Fortify Shouts",
+    "Fortify Sneak",
+    "Fortify Sneak Attacks",
+    "Fortify Speed",
+    "Fortify Stamina",
+    "Fortify Stamina Regeneration",
+    "Fortify Two-handed",
+    "Fortify Unarmed",
+    "Frenzy",
+    "Invisibility",
+    "Light",
+    "Lingering Damage Health",
+    "Lingering Damage Magicka",
+    "Lingering Damage Stamina",
+    "Muffle",
+    "Night Eye",
+    "Paralysis",
+    "Reflect Damage",
+    "Resist Fire",
+    "Resist Frost",
+    "Resist Magic",
+    "Resist Poison",
+    "Resist Shock",
+    "Restore Health",
+    "Restore Magicka",
+    "Restore Stamina",
+    "Silence",
+    "Spell Absorption",
+    "Waterbreathing",
+    "Waterwalking",
+    "Weakness to Fire",
+    "Weakness to Frost",
+    "Weakness to Poison",
+    "Weakness to Shock"
+  ],
+  "ingredients": [
+    {
+      "name": "Abecean Longfin",
+      "value": 19,
+      "effects": [
+        28,
+        30,
+        32,
+        60
+      ]
+    },
+    {
+      "name": "Alocasia Fruit",
+      "value": 62,
+      "effects": [
+        5,
+        19,
+        34,
+        39
+      ]
+    },
+    {
+      "name": "Ambrosia",
+      "value": 44,
+      "effects": [
+        18,
+        19,
+        43,
+        52
+      ]
+    },
+    {
+      "name": "Ancestor Moth Wing",
+      "value": 18,
+      "effects": [
+        8,
+        9,
+        16,
+        31
+      ]
+    },
+    {
+      "name": "Angelfish",
+      "value": 65,
+      "effects": [
+        19,
+        24,
+        47,
+        57
+      ]
+    },
+    {
+      "name": "Angler Larvae",
+      "value": 65,
+      "effects": [
+        34,
+        35,
+        40,
+        57
+      ]
+    },
+    {
+      "name": "Ash Creep Cluster",
+      "value": 17,
+      "effects": [
+        8,
+        17,
+        38,
+        47
+      ]
+    },
+    {
+      "name": "Ash Hopper Jelly",
+      "value": 23,
+      "effects": [
+        27,
+        51,
+        52,
+        60
+      ]
+    },
+    {
+      "name": "Ashen Grass Pod",
+      "value": 17,
+      "effects": [
+        21,
+        30,
+        47,
+        62
+      ]
+    },
+    {
+      "name": "Aster Bloom Core",
+      "value": 59,
+      "effects": [
+        12,
+        14,
+        45,
+        49
+      ]
+    },
+    {
+      "name": "Bear Claws",
+      "value": 20,
+      "effects": [
+        5,
+        18,
+        25,
+        54
+      ]
+    },
+    {
+      "name": "Bee",
+      "value": 30,
+      "effects": [
+        3,
+        34,
+        54,
+        62
+      ]
+    },
+    {
+      "name": "Beehive Husk",
+      "value": 19,
+      "effects": [
+        17,
+        27,
+        30,
+        50
+      ]
+    },
+    {
+      "name": "Berit's Ashes",
+      "value": 28,
+      "effects": [
+        3,
+        8,
+        16,
+        47
+      ]
+    },
+    {
+      "name": "Bittergreen Petals",
+      "value": 47,
+      "effects": [
+        7,
+        38,
+        42,
+        43
+      ]
+    },
+    {
+      "name": "Bleeding Crown",
+      "value": 21,
+      "effects": [
+        14,
+        32,
+        49,
+        59
+      ]
+    },
+    {
+      "name": "Blind Watcher's Eye",
+      "value": 54,
+      "effects": [
+        11,
+        22,
+        39,
+        56
+      ]
+    },
+    {
+      "name": "Bliss Bug Thorax",
+      "value": 27,
+      "effects": [
+        20,
+        29,
+        47,
+        59
+      ]
+    },
+    {
+      "name": "Blister Pod Cap",
+      "value": 56,
+      "effects": [
+        22,
+        38,
+        44,
+        53
+      ]
+    },
+    {
+      "name": "Blisterwort",
+      "value": 24,
+      "effects": [
+        12,
+        37,
+        49,
+        52
+      ]
+    },
+    {
+      "name": "Blue Butterfly Wing",
+      "value": 18,
+      "effects": [
+        8,
+        9,
+        16,
+        31
+      ]
+    },
+    {
+      "name": "Blue Dartwing",
+      "value": 21,
+      "effects": [
+        10,
+        26,
+        51,
+        52
+      ]
+    },
+    {
+      "name": "Blue Mountain Flower",
+      "value": 23,
+      "effects": [
+        5,
+        16,
+        18,
+        52
+      ]
+    },
+    {
+      "name": "Boar Tusk",
+      "value": 67,
+      "effects": [
+        14,
+        18,
+        33,
+        37
+      ]
+    },
+    {
+      "name": "Bog Beacon",
+      "value": 43,
+      "effects": [
+        8,
+        10,
+        29,
+        53
+      ]
+    },
+    {
+      "name": "Bone Meal",
+      "value": 18,
+      "effects": [
+        0,
+        2,
+        16,
+        47
+      ]
+    },
+    {
+      "name": "Briar Heart",
+      "value": 20,
+      "effects": [
+        14,
+        22,
+        45,
+        53
+      ]
+    },
+    {
+      "name": "Bungler's Bane",
+      "value": 47,
+      "effects": [
+        1,
+        2,
+        3,
+        49
+      ]
+    },
+    {
+      "name": "Burnt Spriggan Wood",
+      "value": 19,
+      "effects": [
+        1,
+        9,
+        11,
+        59
+      ]
+    },
+    {
+      "name": "Butterfly Wing",
+      "value": 35,
+      "effects": [
+        7,
+        13,
+        42,
+        52
+      ]
+    },
+    {
+      "name": "Canis Root",
+      "value": 19,
+      "effects": [
+        8,
+        24,
+        25,
+        45
+      ]
+    },
+    {
+      "name": "Charred Skeever Hide",
+      "value": 15,
+      "effects": [
+        4,
+        50,
+        52,
+        54
+      ]
+    },
+    {
+      "name": "Chaurus Eggs",
+      "value": 18,
+      "effects": [
+        7,
+        33,
+        38,
+        61
+      ]
+    },
+    {
+      "name": "Chaurus Hunter Antennae",
+      "value": 18,
+      "effects": [
+        5,
+        8,
+        16,
+        31
+      ]
+    },
+    {
+      "name": "Chicken's Egg",
+      "value": 35,
+      "effects": [
+        9,
+        42,
+        49,
+        57
+      ]
+    },
+    {
+      "name": "Chokeberry",
+      "value": 113,
+      "effects": [
+        6,
+        9,
+        40,
+        61
+      ]
+    },
+    {
+      "name": "Chokeweed",
+      "value": 41,
+      "effects": [
+        4,
+        7,
+        54,
+        60
+      ]
+    },
+    {
+      "name": "Coda Flower",
+      "value": 47,
+      "effects": [
+        5,
+        6,
+        15,
+        42
+      ]
+    },
+    {
+      "name": "Comberry",
+      "value": 42,
+      "effects": [
+        8,
+        17,
+        53,
+        56
+      ]
+    },
+    {
+      "name": "Congealed Putrescence",
+      "value": 53,
+      "effects": [
+        9,
+        16,
+        53,
+        59
+      ]
+    },
+    {
+      "name": "Corkbulb Root",
+      "value": 44,
+      "effects": [
+        24,
+        45,
+        51,
+        52
+      ]
+    },
+    {
+      "name": "Creep Cluster",
+      "value": 17,
+      "effects": [
+        15,
+        36,
+        46,
+        53
+      ]
+    },
+    {
+      "name": "Crimson Nirnroot",
+      "value": 17,
+      "effects": [
+        6,
+        8,
+        38,
+        49
+      ]
+    },
+    {
+      "name": "Cyrodilic Spadetail",
+      "value": 17,
+      "effects": [
+        2,
+        8,
+        10,
+        28
+      ]
+    },
+    {
+      "name": "Daedra Heart",
+      "value": 17,
+      "effects": [
+        7,
+        10,
+        36,
+        52
+      ]
+    },
+    {
+      "name": "Daedra Silk",
+      "value": 35,
+      "effects": [
+        38,
+        42,
+        44,
+        45
+      ]
+    },
+    {
+      "name": "Daedra Venin",
+      "value": 59,
+      "effects": [
+        9,
+        17,
+        45,
+        56
+      ]
+    },
+    {
+      "name": "Daedroth Teeth",
+      "value": 57,
+      "effects": [
+        34,
+        39,
+        48,
+        55
+      ]
+    },
+    {
+      "name": "Deathbell",
+      "value": 19,
+      "effects": [
+        3,
+        6,
+        32,
+        61
+      ]
+    },
+    {
+      "name": "Dragon's Tongue",
+      "value": 19,
+      "effects": [
+        13,
+        15,
+        20,
+        35
+      ]
+    },
+    {
+      "name": "Dreugh Wax",
+      "value": 56,
+      "effects": [
+        27,
+        36,
+        37,
+        46
+      ]
+    },
+    {
+      "name": "Dwarven Oil",
+      "value": 16,
+      "effects": [
+        20,
+        23,
+        46,
+        53
+      ]
+    },
+    {
+      "name": "Ectoplasm",
+      "value": 17,
+      "effects": [
+        6,
+        17,
+        22,
+        53
+      ]
+    },
+    {
+      "name": "Elves Ear",
+      "value": 18,
+      "effects": [
+        24,
+        47,
+        53,
+        60
+      ]
+    },
+    {
+      "name": "Elytra Ichor",
+      "value": 57,
+      "effects": [
+        1,
+        10,
+        38,
+        53
+      ]
+    },
+    {
+      "name": "Emperor Parasol Moss",
+      "value": 17,
+      "effects": [
+        6,
+        19,
+        22,
+        35
+      ]
+    },
+    {
+      "name": "Eye of Sabre Cat",
+      "value": 15,
+      "effects": [
+        2,
+        7,
+        52,
+        54
+      ]
+    },
+    {
+      "name": "Falmer Ear",
+      "value": 16,
+      "effects": [
+        21,
+        37,
+        50,
+        58
+      ]
+    },
+    {
+      "name": "Felsaad Tern Feathers",
+      "value": 23,
+      "effects": [
+        4,
+        27,
+        49,
+        52
+      ]
+    },
+    {
+      "name": "Fire Petal",
+      "value": 64,
+      "effects": [
+        6,
+        45,
+        47,
+        56
+      ]
+    },
+    {
+      "name": "Fire Salts",
+      "value": 16,
+      "effects": [
+        23,
+        47,
+        53,
+        60
+      ]
+    },
+    {
+      "name": "Flame Stalk",
+      "value": 57,
+      "effects": [
+        38,
+        48,
+        52,
+        59
+      ]
+    },
+    {
+      "name": "Fly Amanita",
+      "value": 19,
+      "effects": [
+        20,
+        33,
+        35,
+        47
+      ]
+    },
+    {
+      "name": "Frost Mirriam",
+      "value": 18,
+      "effects": [
+        30,
+        36,
+        48,
+        55
+      ]
+    },
+    {
+      "name": "Frost Salts",
+      "value": 17,
+      "effects": [
+        16,
+        48,
+        53,
+        59
+      ]
+    },
+    {
+      "name": "Fungus Stalk",
+      "value": 55,
+      "effects": [
+        18,
+        33,
+        53,
+        57
+      ]
+    },
+    {
+      "name": "Garlic",
+      "value": 40,
+      "effects": [
+        19,
+        23,
+        33,
+        50
+      ]
+    },
+    {
+      "name": "Giant Lichen",
+      "value": 19,
+      "effects": [
+        2,
+        32,
+        61,
+        62
+      ]
+    },
+    {
+      "name": "Giant's Toe",
+      "value": 22,
+      "effects": [
+        0,
+        15,
+        18,
+        29
+      ]
+    },
+    {
+      "name": "Glassfish",
+      "value": 42,
+      "effects": [
+        20,
+        31,
+        38,
+        53
+      ]
+    },
+    {
+      "name": "Gleamblossom",
+      "value": 21,
+      "effects": [
+        10,
+        19,
+        45,
+        49
+      ]
+    },
+    {
+      "name": "Glow Dust",
+      "value": 18,
+      "effects": [
+        5,
+        7,
+        17,
+        51
+      ]
+    },
+    {
+      "name": "Glowing Mushroom",
+      "value": 63,
+      "effects": [
+        12,
+        17,
+        18,
+        51
+      ]
+    },
+    {
+      "name": "Gnarl Bark",
+      "value": 62,
+      "effects": [
+        6,
+        19,
+        29,
+        47
+      ]
+    },
+    {
+      "name": "Gold Kanet",
+      "value": 47,
+      "effects": [
+        9,
+        36,
+        45,
+        60
+      ]
+    },
+    {
+      "name": "Goldfish",
+      "value": 35,
+      "effects": [
+        29,
+        48,
+        54,
+        57
+      ]
+    },
+    {
+      "name": "Grass Pod",
+      "value": 17,
+      "effects": [
+        11,
+        50,
+        53,
+        55
+      ]
+    },
+    {
+      "name": "Green Butterfly Wing",
+      "value": 74,
+      "effects": [
+        1,
+        10,
+        38,
+        53
+      ]
+    },
+    {
+      "name": "Hackle-Lo Leaf",
+      "value": 42,
+      "effects": [
+        28,
+        45,
+        54,
+        57
+      ]
+    },
+    {
+      "name": "Hagraven Claw",
+      "value": 20,
+      "effects": [
+        13,
+        31,
+        41,
+        49
+      ]
+    },
+    {
+      "name": "Hagraven Feathers",
+      "value": 16,
+      "effects": [
+        7,
+        16,
+        37,
+        62
+      ]
+    },
+    {
+      "name": "Hanging Moss",
+      "value": 19,
+      "effects": [
+        7,
+        9,
+        18,
+        25
+      ]
+    },
+    {
+      "name": "Hawk Beak",
+      "value": 17,
+      "effects": [
+        15,
+        48,
+        51,
+        54
+      ]
+    },
+    {
+      "name": "Hawk Feathers",
+      "value": 18,
+      "effects": [
+        4,
+        25,
+        27,
+        30
+      ]
+    },
+    {
+      "name": "Hawk's Egg",
+      "value": 35,
+      "effects": [
+        5,
+        42,
+        49,
+        57
+      ]
+    },
+    {
+      "name": "Heart of Order",
+      "value": 54,
+      "effects": [
+        18,
+        25,
+        35,
+        52
+      ]
+    },
+    {
+      "name": "Histcarp",
+      "value": 18,
+      "effects": [
+        22,
+        29,
+        54,
+        57
+      ]
+    },
+    {
+      "name": "Honeycomb",
+      "value": 20,
+      "effects": [
+        3,
+        14,
+        27,
+        54
+      ]
+    },
+    {
+      "name": "Human Flesh",
+      "value": 17,
+      "effects": [
+        6,
+        30,
+        45,
+        53
+      ]
+    },
+    {
+      "name": "Human Heart",
+      "value": 16,
+      "effects": [
+        5,
+        6,
+        7,
+        37
+      ]
+    },
+    {
+      "name": "Hunger Tongue",
+      "value": 55,
+      "effects": [
+        4,
+        22,
+        43,
+        59
+      ]
+    },
+    {
+      "name": "Hydnum Azure Giant Spore",
+      "value": 58,
+      "effects": [
+        18,
+        19,
+        39,
+        48
+      ]
+    },
+    {
+      "name": "Hypha Facia",
+      "value": 47,
+      "effects": [
+        2,
+        37,
+        49,
+        61
+      ]
+    },
+    {
+      "name": "Ice Wraith Teeth",
+      "value": 19,
+      "effects": [
+        38,
+        43,
+        59,
+        60
+      ]
+    },
+    {
+      "name": "Imp Gall",
+      "value": 55,
+      "effects": [
+        6,
+        13,
+        43,
+        59
+      ]
+    },
+    {
+      "name": "Imp Stool",
+      "value": 21,
+      "effects": [
+        6,
+        40,
+        45,
+        52
+      ]
+    },
+    {
+      "name": "Jarrin Root",
+      "value": 20,
+      "effects": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "Jazbay Grapes",
+      "value": 16,
+      "effects": [
+        2,
+        22,
+        23,
+        46
+      ]
+    },
+    {
+      "name": "Juniper Berries",
+      "value": 19,
+      "effects": [
+        19,
+        24,
+        36,
+        59
+      ]
+    },
+    {
+      "name": "Juvenile Mudcrab",
+      "value": 71,
+      "effects": [
+        4,
+        15,
+        34,
+        35
+      ]
+    },
+    {
+      "name": "Kagouti Hide",
+      "value": 45,
+      "effects": [
+        15,
+        42,
+        44,
+        51
+      ]
+    },
+    {
+      "name": "Kresh Fiber",
+      "value": 46,
+      "effects": [
+        1,
+        26,
+        30,
+        46
+      ]
+    },
+    {
+      "name": "Large Antlers",
+      "value": 19,
+      "effects": [
+        1,
+        29,
+        33,
+        54
+      ]
+    },
+    {
+      "name": "Lavender",
+      "value": 19,
+      "effects": [
+        12,
+        16,
+        34,
+        55
+      ]
+    },
+    {
+      "name": "Lichor",
+      "value": 57,
+      "effects": [
+        22,
+        23,
+        53,
+        56
+      ]
+    },
+    {
+      "name": "Luminous Russula",
+      "value": 45,
+      "effects": [
+        10,
+        40,
+        42,
+        57
+      ]
+    },
+    {
+      "name": "Luna Moth Wing",
+      "value": 18,
+      "effects": [
+        7,
+        19,
+        27,
+        38
+      ]
+    },
+    {
+      "name": "Lyretail Anthias",
+      "value": 48,
+      "effects": [
+        11,
+        15,
+        16,
+        53
+      ]
+    },
+    {
+      "name": "Marshmerrow",
+      "value": 44,
+      "effects": [
+        8,
+        15,
+        46,
+        52
+      ]
+    },
+    {
+      "name": "Minotaur Horn",
+      "value": 60,
+      "effects": [
+        19,
+        23,
+        50,
+        55
+      ]
+    },
+    {
+      "name": "Moon Sugar",
+      "value": 17,
+      "effects": [
+        23,
+        48,
+        53,
+        59
+      ]
+    },
+    {
+      "name": "Mora Tapinella",
+      "value": 17,
+      "effects": [
+        20,
+        37,
+        40,
+        53
+      ]
+    },
+    {
+      "name": "Mudcrab Chitin",
+      "value": 15,
+      "effects": [
+        4,
+        47,
+        50,
+        54
+      ]
+    },
+    {
+      "name": "Namira's Rot",
+      "value": 18,
+      "effects": [
+        10,
+        18,
+        19,
+        21
+      ]
+    },
+    {
+      "name": "Netch Jelly",
+      "value": 20,
+      "effects": [
+        10,
+        15,
+        45,
+        54
+      ]
+    },
+    {
+      "name": "Nightshade",
+      "value": 16,
+      "effects": [
+        5,
+        6,
+        17,
+        42
+      ]
+    },
+    {
+      "name": "Nirnroot",
+      "value": 19,
+      "effects": [
+        6,
+        38,
+        49,
+        61
+      ]
+    },
+    {
+      "name": "Nordic Barnacle",
+      "value": 14,
+      "effects": [
+        7,
+        19,
+        26,
+        57
+      ]
+    },
+    {
+      "name": "Ogre's Teeth",
+      "value": 60,
+      "effects": [
+        19,
+        41,
+        50,
+        62
+      ]
+    },
+    {
+      "name": "Orange Dartwing",
+      "value": 17,
+      "effects": [
+        26,
+        40,
+        54,
+        55
+      ]
+    },
+    {
+      "name": "Pearl",
+      "value": 17,
+      "effects": [
+        14,
+        51,
+        53,
+        54
+      ]
+    },
+    {
+      "name": "Pearlfish",
+      "value": 42,
+      "effects": [
+        25,
+        36,
+        48,
+        54
+      ]
+    },
+    {
+      "name": "Pine Thrush Egg",
+      "value": 18,
+      "effects": [
+        21,
+        32,
+        54,
+        61
+      ]
+    },
+    {
+      "name": "Poison Bloom",
+      "value": 17,
+      "effects": [
+        1,
+        6,
+        10,
+        15
+      ]
+    },
+    {
+      "name": "Powdered Mammoth Tusk",
+      "value": 18,
+      "effects": [
+        10,
+        30,
+        54,
+        59
+      ]
+    },
+    {
+      "name": "Purple Butterfly Wing",
+      "value": 111,
+      "effects": [
+        19,
+        23,
+        34,
+        45
+      ]
+    },
+    {
+      "name": "Purple Mountain Flower",
+      "value": 32,
+      "effects": [
+        30,
+        41,
+        48,
+        54
+      ]
+    },
+    {
+      "name": "Pygmy Sunfish",
+      "value": 65,
+      "effects": [
+        28,
+        41,
+        54,
+        55
+      ]
+    },
+    {
+      "name": "Red Kelp Gas Bladder",
+      "value": 55,
+      "effects": [
+        4,
+        22,
+        34,
+        57
+      ]
+    },
+    {
+      "name": "Red Mountain Flower",
+      "value": 16,
+      "effects": [
+        6,
+        13,
+        22,
+        53
+      ]
+    },
+    {
+      "name": "Redwort Flower",
+      "value": 47,
+      "effects": [
+        6,
+        38,
+        43,
+        48
+      ]
+    },
+    {
+      "name": "River Betty",
+      "value": 16,
+      "effects": [
+        1,
+        6,
+        11,
+        15
+      ]
+    },
+    {
+      "name": "Rock Warbler Egg",
+      "value": 18,
+      "effects": [
+        0,
+        25,
+        46,
+        52
+      ]
+    },
+    {
+      "name": "Roobrush",
+      "value": 45,
+      "effects": [
+        30,
+        40,
+        43,
+        46
+      ]
+    },
+    {
+      "name": "Rot Scale",
+      "value": 19,
+      "effects": [
+        1,
+        10,
+        40,
+        45
+      ]
+    },
+    {
+      "name": "Sabre Cat Tooth",
+      "value": 18,
+      "effects": [
+        32,
+        43,
+        54,
+        61
+      ]
+    },
+    {
+      "name": "Salmon Roe",
+      "value": 16,
+      "effects": [
+        22,
+        23,
+        54,
+        57
+      ]
+    },
+    {
+      "name": "Salt Pile",
+      "value": 16,
+      "effects": [
+        1,
+        23,
+        28,
+        46
+      ]
+    },
+    {
+      "name": "Saltrice",
+      "value": 39,
+      "effects": [
+        3,
+        22,
+        52,
+        54
+      ]
+    },
+    {
+      "name": "Scalon Fin",
+      "value": 62,
+      "effects": [
+        6,
+        41,
+        55,
+        57
+      ]
+    },
+    {
+      "name": "Scaly Pholiota",
+      "value": 17,
+      "effects": [
+        15,
+        33,
+        34,
+        46
+      ]
+    },
+    {
+      "name": "Scathecraw",
+      "value": 30,
+      "effects": [
+        2,
+        3,
+        40,
+        55
+      ]
+    },
+    {
+      "name": "Screaming Maw",
+      "value": 70,
+      "effects": [
+        11,
+        19,
+        23,
+        38
+      ]
+    },
+    {
+      "name": "Scrib Jelly",
+      "value": 44,
+      "effects": [
+        4,
+        23,
+        34,
+        43
+      ]
+    },
+    {
+      "name": "Scrib Jerky",
+      "value": 44,
+      "effects": [
+        33,
+        45,
+        54,
+        57
+      ]
+    },
+    {
+      "name": "Silverside Perch",
+      "value": 18,
+      "effects": [
+        2,
+        29,
+        48,
+        54
+      ]
+    },
+    {
+      "name": "Skeever Tail",
+      "value": 20,
+      "effects": [
+        2,
+        27,
+        29,
+        58
+      ]
+    },
+    {
+      "name": "Slaughterfish Egg",
+      "value": 83,
+      "effects": [
+        26,
+        33,
+        40,
+        50
+      ]
+    },
+    {
+      "name": "Slaughterfish Scales",
+      "value": 17,
+      "effects": [
+        14,
+        40,
+        43,
+        48
+      ]
+    },
+    {
+      "name": "Sload Soap",
+      "value": 55,
+      "effects": [
+        10,
+        11,
+        16,
+        47
+      ]
+    },
+    {
+      "name": "Small Antlers",
+      "value": 20,
+      "effects": [
+        28,
+        32,
+        42,
+        62
+      ]
+    },
+    {
+      "name": "Small Pearl",
+      "value": 18,
+      "effects": [
+        25,
+        28,
+        48,
+        54
+      ]
+    },
+    {
+      "name": "Snowberries",
+      "value": 17,
+      "effects": [
+        31,
+        47,
+        48,
+        51
+      ]
+    },
+    {
+      "name": "Spadefish",
+      "value": 23,
+      "effects": [
+        4,
+        21,
+        26,
+        52
+      ]
+    },
+    {
+      "name": "Spawn Ash",
+      "value": 31,
+      "effects": [
+        3,
+        31,
+        47,
+        55
+      ]
+    },
+    {
+      "name": "Spider Egg",
+      "value": 18,
+      "effects": [
+        8,
+        9,
+        21,
+        24
+      ]
+    },
+    {
+      "name": "Spriggan Sap",
+      "value": 21,
+      "effects": [
+        5,
+        11,
+        12,
+        31
+      ]
+    },
+    {
+      "name": "Stoneflower Petals",
+      "value": 45,
+      "effects": [
+        22,
+        25,
+        27,
+        62
+      ]
+    },
+    {
+      "name": "Swamp Fungal Pod",
+      "value": 34,
+      "effects": [
+        41,
+        45,
+        51,
+        58
+      ]
+    },
+    {
+      "name": "Taproot",
+      "value": 16,
+      "effects": [
+        20,
+        23,
+        46,
+        53
+      ]
+    },
+    {
+      "name": "Thistle Branch",
+      "value": 29,
+      "effects": [
+        3,
+        43,
+        48,
+        50
+      ]
+    },
+    {
+      "name": "Thorn Hook",
+      "value": 18,
+      "effects": [
+        19,
+        23,
+        40,
+        45
+      ]
+    },
+    {
+      "name": "Torchbug Thorax",
+      "value": 17,
+      "effects": [
+        33,
+        41,
+        46,
+        54
+      ]
+    },
+    {
+      "name": "Trama Root",
+      "value": 17,
+      "effects": [
+        1,
+        7,
+        15,
+        62
+      ]
+    },
+    {
+      "name": "Troll Fat",
+      "value": 18,
+      "effects": [
+        35,
+        37,
+        50,
+        58
+      ]
+    },
+    {
+      "name": "Tundra Cotton",
+      "value": 18,
+      "effects": [
+        14,
+        22,
+        23,
+        49
+      ]
+    },
+    {
+      "name": "Vampire Dust",
+      "value": 16,
+      "effects": [
+        4,
+        19,
+        38,
+        53
+      ]
+    },
+    {
+      "name": "Void Essence",
+      "value": 59,
+      "effects": [
+        18,
+        19,
+        33,
+        52
+      ]
+    },
+    {
+      "name": "Void Salts",
+      "value": 22,
+      "effects": [
+        0,
+        22,
+        49,
+        62
+      ]
+    },
+    {
+      "name": "Watcher's Eye",
+      "value": 54,
+      "effects": [
+        20,
+        22,
+        44,
+        56
+      ]
+    },
+    {
+      "name": "Wheat",
+      "value": 19,
+      "effects": [
+        25,
+        36,
+        41,
+        52
+      ]
+    },
+    {
+      "name": "White Cap",
+      "value": 18,
+      "effects": [
+        43,
+        53,
+        55,
+        60
+      ]
+    },
+    {
+      "name": "Wisp Stalk Caps",
+      "value": 48,
+      "effects": [
+        6,
+        34,
+        37,
+        61
+      ]
+    },
+    {
+      "name": "Wisp Wrappings",
+      "value": 69,
+      "effects": [
+        15,
+        17,
+        49,
+        54
+      ]
+    },
+    {
+      "name": "Withering Moon",
+      "value": 55,
+      "effects": [
+        4,
+        12,
+        53,
+        56
+      ]
+    },
+    {
+      "name": "Worm's Head Cap",
+      "value": 56,
+      "effects": [
+        1,
+        15,
+        21,
+        44
+      ]
+    },
+    {
+      "name": "Yellow Mountain Flower",
+      "value": 19,
+      "effects": [
+        18,
+        28,
+        36,
+        50
+      ]
+    }
+  ]
+}

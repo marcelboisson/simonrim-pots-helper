@@ -1,0 +1,180 @@
+NAME,WEIGHT,VALUE,E1,E1M,E1D,E2,E2M,E2D,E3,E3M,E3D,E4,E4M,E4D
+Abecean Longfin,0.5,19,Weakness to Frost,6.66,60,Fortify Sneak,3.33,60,Fortify Speed,1.33,60,Fortify Restoration Power,3.33,60
+Alocasia Fruit,0.25,62,Fortify Stamina Regeneration,2.67,300,Light,0,4,Damage Armor,19.95,60,Fortify Health Regeneration,2.67,300
+Ambrosia,0.1,44,Restore Health,0.96,10,Fortify Health Regeneration,2.67,300,Fortify Health,2.67,300,Muffle,1,4
+Ancestor Moth Wing,0.1,18,Damage Stamina,0.88,10,Fortify Conjuration Power,6.67,60,Damage Weapon,3.33,60,Fortify Sneak Attacks,3.33,60
+Angelfish,0.25,65,Fortify Health Regeneration,2.67,300,Resist Fire,3.33,60,Fortify Marksman,3.33,60,Waterbreathing,0,4
+Angler Larvae,0.25,65,Lingering Damage Health,0.27,30,Fortify Stamina Regeneration,2.67,300,Waterbreathing,0,4,Fortify Two-handed,3.33,60
+Ash Creep Cluster,0.25,17,Damage Stamina,0.88,10,Invisibility,0,4,Resist Fire,3.33,60,Fortify Destruction Power,3.33,60
+Ash Hopper Jelly,0.25,23,Restore Health,0.96,10,Fortify Power Attacks,3.33,60,Resist Shock,3.33,60,Weakness to Frost,6.66,60
+Ashen Grass Pod,0.1,17,Resist Fire,3.33,60,Weakness to Shock,6.66,60,Fortify Lockpicking,3.33,60,Fortify Sneak,3.33,60
+Aster Bloom Core,0.1,59,Resist Magic,1.67,300,Fortify Armor Rating,6.67,300,Fortify Block,3.33,60,Paralysis,3.33,10
+Bear Claws,0.1,20,Restore Stamina,0.96,10,Fortify Health,2.67,300,Fortify One-handed,3.33,60,Damage Armor,19.95,60
+Bee,0.1,30,Restore Stamina,0.96,10,Command,3.33,30,Fortify Stamina Regeneration,2.67,300,Weakness to Shock,6.66,60
+Beehive Husk,1,19,Resist Poison,3.33,60,Fortify Power Attacks,3.33,60,Fortify Sneak,3.33,60,Fortify Destruction Power,3.33,60
+Berit's Ashes,0.2,28,Damage Stamina,0.88,10,Resist Fire,3.33,60,Fortify Conjuration Power,6.67,60,Command,3.33,30
+Bittergreen Petals,0.1,47,Lingering Damage Stamina,0.52,30,Invisibility,0,4,Muffle,1,4,Damage Magicka,0.88,10
+Bleeding Crown,0.3,21,Weakness to Fire,6.66,60,Fortify Block,3.33,60,Fortify Speed,1.33,60,Resist Magic,1.67,300
+Blind Watcher's Eye,0.2,54,Light,0,4,Fortify Magicka,2.67,300,Fortify Alteration Power,6.67,60,Spell Absorption,1.67,60
+Bliss Bug Thorax,0.1,27,Weakness to Fire,6.66,60,Resist Fire,3.33,60,Fortify Shouts,6.67,60,Fortify Illusion Power,3.33,60
+Blister Pod Cap,0.1,56,Restore Magicka,0.96,10,Fortify Magicka,2.67,300,Night Eye,0,4,Invisibility,0,4
+Blisterwort,0.2,24,Restore Health,0.96,10,Frenzy,3.33,30,Resist Magic,1.67,300,Fortify Armor Rating,6.67,300
+Blue Butterfly Wing,0.1,18,Damage Stamina,0.88,10,Fortify Conjuration Power,6.67,60,Damage Weapon,3.33,60,Fortify Sneak Attacks,3.33,60
+Blue Dartwing,0.1,21,Resist Shock,3.33,60,Fortify Pickpocket,3.33,60,Restore Health,0.96,10,Fear,3.33,30
+Blue Mountain Flower,0.1,23,Restore Health,0.96,10,Fortify Conjuration Power,6.67,60,Fortify Health,2.67,300,Damage Armor,19.95,60
+Boar Tusk,0.5,67,Fortify Stamina,2.67,300,Fortify Health,2.67,300,Fortify Block,3.33,60,Frenzy,3.33,30
+Bog Beacon,0.1,43,Restore Magicka,0.96,10,Fortify Shouts,6.67,60,Fear,3.33,30,Damage Stamina,0.88,10
+Bone Meal,0.5,18,Fortify Conjuration Power,6.67,60,Resist Fire,3.33,60,Become Ethereal,0,4,Calm,3.33,30
+Briar Heart,0.5,20,Restore Magicka,0.96,10,Fortify Block,3.33,60,Paralysis,3.33,10,Fortify Magicka,2.67,300
+Bungler's Bane,0.5,47,Burden,3.33,60,Calm,3.33,30,Command,3.33,30,Resist Magic,1.67,300
+Burnt Spriggan Wood,0.5,19,Weakness to Fire,6.66,60,Fortify Alteration Power,6.67,60,Damage Weapon,3.33,60,Burden,3.33,60
+Butterfly Wing,0.1,35,Restore Health,0.96,10,Fortify Barter,1.67,300,Lingering Damage Stamina,0.52,30,Damage Magicka,0.88,10
+Canis Root,0.1,19,Damage Stamina,0.88,10,Fortify One-handed,3.33,60,Fortify Marksman,3.33,60,Paralysis,3.33,10
+Charred Skeever Hide,0.5,15,Restore Stamina,0.96,10,Cure Disease,1,0,Resist Poison,3.33,60,Restore Health,0.96,10
+Chaurus Eggs,0.2,18,Weakness to Poison,6.66,60,Fortify Stamina,2.67,300,Damage Magicka,0.88,10,Invisibility,0,4
+Chaurus Hunter Antennae,0.1,18,Damage Stamina,0.88,10,Fortify Conjuration Power,6.67,60,Damage Armor,19.95,60,Fortify Sneak Attacks,3.33,60
+Chicken's Egg,0.5,35,Resist Magic,1.67,300,Damage Weapon,3.33,60,Waterbreathing,0,4,Lingering Damage Stamina,0.52,30
+Chokeberry,0.1,113,Damage Health,0.44,10,Damage Weapon,3.33,60,Lingering Damage Health,0.27,30,Weakness to Poison,6.66,60
+Chokeweed,0.1,41,Weakness to Frost,6.66,60,Restore Stamina,0.96,10,Cure Disease,1,0,Damage Magicka,0.88,10
+Coda Flower,0.1,47,Damage Health,0.44,10,Lingering Damage Stamina,0.52,30,Damage Armor,19.95,60,Fortify Carry Weight,6.67,300
+Comberry,0.1,42,Damage Stamina,0.88,10,Spell Absorption,1.67,60,Restore Magicka,0.96,10,Fortify Destruction Power,3.33,60
+Congealed Putrescence,0.1,53,Damage Weapon,3.33,60,Restore Magicka,0.96,10,Weakness to Fire,6.66,60,Fortify Conjuration Power,6.67,60
+Corkbulb Root,0.1,44,Paralysis,3.33,10,Restore Health,0.96,10,Resist Shock,3.33,60,Fortify Marksman,3.33,60
+Creep Cluster,0.2,17,Restore Magicka,0.96,10,Fortify Unarmed,3.33,60,Fortify Carry Weight,6.67,300,Reflect Damage,2.67,60
+Crimson Nirnroot,0.2,17,Damage Health,0.44,10,Damage Stamina,0.88,10,Invisibility,0,4,Resist Magic,1.67,300
+Cyrodilic Spadetail,0.25,17,Damage Stamina,0.88,10,Fortify Restoration Power,3.33,60,Fear,3.33,30,Calm,3.33,30
+Daedra Heart,0.5,17,Restore Health,0.96,10,Fortify Unarmed,3.33,60,Damage Magicka,0.88,10,Fear,3.33,30
+Daedra Silk,0.5,35,Lingering Damage Stamina,0.52,30,Paralysis,3.33,10,Night Eye,0,4,Invisibility,0,4
+Daedra Venin,0.2,59,Damage Weapon,3.33,60,Paralysis,3.33,10,Fortify Destruction Power,3.33,60,Spell Absorption,1.67,60
+Daedroth Teeth,0.5,57,Resist Frost,3.33,60,Light,0,4,Silence,3.33,30,Fortify Stamina Regeneration,2.67,300
+Deathbell,0.1,19,Damage Health,0.44,10,Command,3.33,30,Weakness to Poison,6.66,60,Fortify Speed,1.33,60
+Dragon's Tongue,0.1,19,Fortify Carry Weight,6.67,300,Fortify Barter,1.67,300,Fortify Illusion Power,3.33,60,Fortify Two-handed,3.33,60
+Dreugh Wax,1,56,Reflect Damage,2.67,60,Frenzy,3.33,30,Fortify Power Attacks,3.33,60,Fortify Unarmed,3.33,60
+Dwarven Oil,0.25,16,Reflect Damage,2.67,60,Fortify Illusion Power,3.33,60,Fortify Magicka Regeneration,2.67,300,Restore Magicka,0.96,10
+Ectoplasm,0.1,17,Restore Magicka,0.96,10,Fortify Destruction Power,3.33,60,Fortify Magicka,2.67,300,Damage Health,0.44,10
+Elves Ear,0.1,18,Restore Magicka,0.96,10,Fortify Marksman,3.33,60,Weakness to Frost,6.66,60,Resist Fire,3.33,60
+Elytra Ichor,0.1,57,Restore Magicka,0.96,10,Invisibility,0,4,Burden,3.33,60,Fear,3.33,30
+Emperor Parasol Moss,0.25,17,Damage Health,0.44,10,Fortify Magicka,2.67,300,Fortify Health Regeneration,2.67,300,Fortify Two-handed,3.33,60
+Eye of Sabre Cat,0.1,15,Restore Stamina,0.96,10,Calm,3.33,30,Damage Magicka,0.88,10,Restore Health,0.96,10
+Falmer Ear,0.2,16,Waterwalking,0,4,Frenzy,3.33,30,Resist Poison,3.33,60,Fortify Lockpicking,3.33,60
+Felsaad Tern Feathers,0.1,23,Restore Health,0.96,10,Fortify Power Attacks,3.33,60,Cure Disease,1,0,Resist Magic,1.67,300
+Fire Petal,0.1,64,Damage Health,0.44,10,Resist Fire,3.33,60,Spell Absorption,1.67,60,Paralysis,3.33,10
+Fire Salts,0.25,16,Weakness to Frost,6.66,60,Resist Fire,3.33,60,Restore Magicka,0.96,10,Fortify Magicka Regeneration,2.67,300
+Flame Stalk,0.1,57,Restore Health,0.96,10,Resist Frost,3.33,60,Weakness to Fire,6.66,60,Invisibility,0,4
+Flame Stalk,0.1,85,Restore Health,0.96,10,Resist Frost,3.33,60,Weakness to Fire,6.66,60,Invisibility,0,4
+Fly Amanita,0.1,19,Resist Fire,3.33,60,Fortify Two-handed,3.33,60,Fortify Stamina,2.67,300,Fortify Illusion Power,3.33,60
+Frost Mirriam,0.1,18,Resist Frost,3.33,60,Fortify Sneak,3.33,60,Silence,3.33,30,Fortify Unarmed,3.33,60
+Frost Salts,0.25,17,Weakness to Fire,6.66,60,Resist Frost,3.33,60,Restore Magicka,0.96,10,Fortify Conjuration Power,6.67,60
+Fungus Stalk,0.1,55,Restore Magicka,0.96,10,Fortify Health,2.67,300,Fortify Stamina,2.67,300,Waterbreathing,0,4
+Garlic,0.25,40,Resist Poison,3.33,60,Fortify Stamina,2.67,300,Fortify Magicka Regeneration,2.67,300,Fortify Health Regeneration,2.67,300
+Giant Lichen,0.25,19,Weakness to Shock,6.66,60,Calm,3.33,30,Fortify Speed,1.33,60,Weakness to Poison,6.66,60
+Giant's Toe,1,22,Become Ethereal,0,4,Fortify Health,2.67,300,Fortify Carry Weight,6.67,300,Fortify Shouts,6.67,60
+Glassfish,0.25,42,Restore Magicka,0.96,10,Invisibility,0,4,Fortify Illusion Power,3.33,60,Fortify Sneak Attacks,3.33,60
+Gleamblossom,0.1,21,Resist Magic,1.67,300,Fear,3.33,30,Fortify Health Regeneration,2.67,300,Paralysis,3.33,10
+Glow Dust,0.5,18,Damage Magicka,0.88,10,Damage Armor,19.95,60,Fortify Destruction Power,3.33,60,Resist Shock,3.33,60
+Glowing Mushroom,0.2,63,Resist Shock,3.33,60,Fortify Destruction Power,3.33,60,Fortify Armor Rating,6.67,300,Fortify Health,2.67,300
+Gnarl Bark,0.1,62,Damage Health,0.44,10,Fortify Health Regeneration,2.67,300,Fortify Shouts,6.67,60,Resist Fire,3.33,60
+Gold Kanet,0.1,47,Paralysis,3.33,10,Damage Weapon,3.33,60,Weakness to Frost,6.66,60,Fortify Unarmed,3.33,60
+Goldfish,0.25,35,Restore Stamina,0.96,10,Fortify Shouts,6.67,60,Waterbreathing,0,4,Resist Frost,3.33,60
+Grass Pod,0.1,17,Resist Poison,3.33,60,Silence,3.33,30,Fortify Alteration Power,6.67,60,Restore Magicka,0.96,10
+Green Butterfly Wing,0.1,74,Restore Magicka,0.96,10,Fear,3.33,30,Burden,3.33,60,Invisibility,0,4
+Hackle-Lo Leaf,0.1,42,Restore Stamina,0.96,10,Paralysis,3.33,10,Waterbreathing,0,4,Fortify Restoration Power,3.33,60
+Hagraven Claw,0.25,20,Resist Magic,1.67,300,Lingering Damage Magicka,0.52,30,Fortify Sneak Attacks,3.33,60,Fortify Barter,1.67,300
+Hagraven Feathers,0.1,16,Damage Magicka,0.88,10,Fortify Conjuration Power,6.67,60,Frenzy,3.33,30,Weakness to Shock,6.66,60
+Hanging Moss,0.25,19,Damage Magicka,0.88,10,Fortify Health,2.67,300,Damage Weapon,3.33,60,Fortify One-handed,3.33,60
+Hawk Beak,0.25,17,Restore Stamina,0.96,10,Resist Frost,3.33,60,Fortify Carry Weight,6.67,300,Resist Shock,3.33,60
+Hawk Feathers,0.1,18,Fortify Power Attacks,3.33,60,Cure Disease,1,0,Fortify One-handed,3.33,60,Fortify Sneak,3.33,60
+Hawk's Egg,0.5,35,Resist Magic,1.67,300,Damage Armor,19.95,60,Waterbreathing,0,4,Lingering Damage Stamina,0.52,30
+Heart of Order,0.1,54,Restore Health,0.96,10,Fortify Health,2.67,300,Fortify One-handed,3.33,60,Fortify Two-handed,3.33,60
+Histcarp,0.25,18,Restore Stamina,0.96,10,Fortify Magicka,2.67,300,Fortify Shouts,6.67,60,Waterbreathing,0,4
+Honeycomb,1,20,Restore Stamina,0.96,10,Fortify Block,3.33,60,Fortify Power Attacks,3.33,60,Command,3.33,30
+Human Flesh,0.25,17,Damage Health,0.44,10,Paralysis,3.33,10,Restore Magicka,0.96,10,Fortify Sneak,3.33,60
+Human Heart,1,16,Damage Health,0.44,10,Damage Magicka,0.88,10,Damage Armor,19.95,60,Frenzy,3.33,30
+Hunger Tongue,0.1,55,Weakness to Fire,6.66,60,Cure Disease,1,0,Muffle,1,4,Fortify Magicka,2.67,300
+Hydnum Azure Giant Spore,0.5,58,Resist Frost,3.33,60,Fortify Health,2.67,300,Fortify Health Regeneration,2.67,300,Light,0,4
+Hypha Facia,0.1,47,Weakness to Poison,6.66,60,Frenzy,3.33,30,Calm,3.33,30,Resist Magic,1.67,300
+Ice Wraith Teeth,0.25,19,Weakness to Frost,6.66,60,Muffle,1,4,Invisibility,0,4,Weakness to Fire,6.66,60
+Imp Gall,0.2,55,Damage Health,0.44,10,Weakness to Fire,6.66,60,Fortify Barter,1.67,300,Muffle,1,4
+Imp Stool,0.3,21,Damage Health,0.44,10,Lingering Damage Health,0.27,30,Paralysis,3.33,10,Restore Health,0.96,10
+Jarrin Root,0.5,20,Damage Health,4.4,10,Damage Magicka,0.88,10,Damage Stamina,0.88,10,Damage Weapon,3.33,60
+Jazbay Grapes,0.2,16,Reflect Damage,2.67,60,Fortify Magicka,2.67,300,Fortify Magicka Regeneration,2.67,300,Calm,3.33,30
+Juniper Berries,0.1,19,Weakness to Fire,6.66,60,Fortify Marksman,3.33,60,Fortify Health Regeneration,2.67,300,Fortify Unarmed,3.33,60
+Juvenile Mudcrab,0.25,71,Fortify Stamina Regeneration,2.67,300,Fortify Carry Weight,6.67,300,Cure Disease,1,0,Fortify Two-handed,3.33,60
+Kagouti Hide,1,45,Lingering Damage Stamina,0.52,30,Night Eye,0,4,Fortify Carry Weight,6.67,300,Resist Shock,3.33,60
+Kresh Fiber,0.1,46,Reflect Damage,2.67,60,Burden,3.33,60,Fortify Sneak,3.33,60,Fortify Pickpocket,3.33,60
+Large Antlers,0.1,19,Restore Stamina,0.96,10,Fortify Stamina,2.67,300,Burden,3.33,60,Fortify Shouts,6.67,60
+Lavender,0.1,19,Fortify Armor Rating,6.67,300,Fortify Stamina Regeneration,2.67,300,Silence,3.33,30,Fortify Conjuration Power,6.67,60
+Lichor,0.1,57,Restore Magicka,0.96,10,Fortify Magicka Regeneration,2.67,300,Fortify Magicka,2.67,300,Spell Absorption,1.67,60
+Luminous Russula,0.2,45,Lingering Damage Stamina,0.52,30,Lingering Damage Health,0.27,30,Waterbreathing,0,4,Fear,3.33,30
+Luna Moth Wing,0.1,18,Damage Magicka,0.88,10,Fortify Power Attacks,3.33,60,Fortify Health Regeneration,2.67,300,Invisibility,0,4
+Lyretail Anthias,0.25,48,Restore Magicka,0.96,10,Fortify Alteration Power,6.67,60,Fortify Conjuration Power,6.67,60,Fortify Carry Weight,6.67,300
+Marshmerrow,0.1,44,Restore Health,0.96,10,Fortify Carry Weight,6.67,300,Reflect Damage,2.67,60,Damage Stamina,0.88,10
+Minotaur Horn,5,60,Resist Poison,3.33,60,Silence,3.33,30,Fortify Health Regeneration,2.67,300,Fortify Magicka Regeneration,2.67,300
+Moon Sugar,0.25,17,Weakness to Fire,6.66,60,Resist Frost,3.33,60,Restore Magicka,0.96,10,Fortify Magicka Regeneration,2.67,300
+Mora Tapinella,0.25,17,Restore Magicka,0.96,10,Lingering Damage Health,0.27,30,Frenzy,3.33,30,Fortify Illusion Power,3.33,60
+Mudcrab Chitin,0.25,15,Restore Stamina,0.96,10,Cure Disease,1,0,Resist Poison,3.33,60,Resist Fire,3.33,60
+Namira's Rot,0.25,18,Fortify Health,2.67,300,Fortify Lockpicking,3.33,60,Fear,3.33,30,Fortify Health Regeneration,2.67,300
+Netch Jelly,0.5,20,Paralysis,3.33,10,Fortify Carry Weight,6.67,300,Restore Stamina,0.96,10,Fear,3.33,30
+Nightshade,0.1,16,Damage Health,0.44,10,Damage Armor,19.95,60,Lingering Damage Stamina,0.52,30,Fortify Destruction Power,3.33,60
+Nirnroot,0.2,19,Damage Health,0.44,10,Weakness to Poison,6.66,60,Invisibility,0,4,Resist Magic,1.67,300
+Nordic Barnacle,0.2,14,Damage Magicka,0.88,10,Waterbreathing,0,4,Fortify Health Regeneration,2.67,300,Fortify Pickpocket,3.33,60
+Ogre's Teeth,3,60,Weakness to Shock,6.66,60,Resist Poison,3.33,60,Lingering Damage Magicka,0.52,30,Fortify Health Regeneration,2.67,300
+Orange Dartwing,0.1,17,Restore Stamina,0.96,10,Silence,3.33,30,Fortify Pickpocket,3.33,60,Lingering Damage Health,0.27,30
+Pearl,0.1,17,Restore Stamina,0.96,10,Fortify Block,3.33,60,Restore Magicka,0.96,10,Resist Shock,3.33,60
+Pearlfish,0.25,42,Restore Stamina,0.96,10,Resist Frost,3.33,60,Fortify Unarmed,3.33,60,Fortify One-handed,3.33,60
+Pine Thrush Egg,0.5,18,Restore Stamina,0.96,10,Fortify Lockpicking,3.33,60,Fortify Speed,1.33,60,Weakness to Poison,6.66,60
+Poison Bloom,0.25,17,Damage Health,0.44,10,Burden,3.33,60,Fortify Carry Weight,6.67,300,Fear,3.33,30
+Powdered Mammoth Tusk,0.1,18,Restore Stamina,0.96,10,Fortify Sneak,3.33,60,Weakness to Fire,6.66,60,Fear,3.33,30
+Purple Butterfly Wing,0.1,111,Fortify Health Regeneration,2.67,300,Fortify Magicka Regeneration,2.67,300,Fortify Stamina Regeneration,2.67,300,Paralysis,3.33,10
+Purple Mountain Flower,0.1,32,Restore Stamina,0.96,10,Fortify Sneak,3.33,60,Lingering Damage Magicka,0.52,30,Resist Frost,3.33,60
+Pygmy Sunfish,0.25,65,Restore Stamina,0.96,10,Lingering Damage Magicka,0.52,30,Silence,3.33,30,Fortify Restoration Power,3.33,60
+Red Kelp Gas Bladder,0.1,55,Fortify Stamina Regeneration,2.67,300,Waterbreathing,0,4,Cure Disease,1,0,Fortify Magicka,2.67,300
+Red Mountain Flower,0.1,16,Restore Magicka,0.96,10,Fortify Barter,1.67,300,Fortify Magicka,2.67,300,Damage Health,0.44,10
+Redwort Flower,0.1,47,Resist Frost,3.33,60,Muffle,1,4,Damage Health,0.44,10,Invisibility,0,4
+River Betty,0.25,16,Damage Health,0.44,10,Fortify Alteration Power,6.67,60,Burden,3.33,60,Fortify Carry Weight,6.67,300
+Rock Warbler Egg,0.5,18,Restore Health,0.96,10,Fortify One-handed,3.33,60,Become Ethereal,0,4,Reflect Damage,2.67,60
+Roobrush,0.1,45,Reflect Damage,2.67,60,Fortify Sneak,3.33,60,Lingering Damage Health,0.27,30,Muffle,1,4
+Rot Scale,0.1,19,Burden,3.33,60,Lingering Damage Health,0.27,30,Fear,3.33,30,Paralysis,3.33,10
+Sabre Cat Tooth,0.1,18,Restore Stamina,0.96,10,Muffle,1,4,Weakness to Poison,6.66,60,Fortify Speed,1.33,60
+Salmon Roe,0.2,16,Restore Stamina,0.96,10,Waterbreathing,0,4,Fortify Magicka,2.67,300,Fortify Magicka Regeneration,2.67,300
+Salt Pile,0.2,16,Reflect Damage,2.67,60,Fortify Restoration Power,3.33,60,Burden,3.33,60,Fortify Magicka Regeneration,2.67,300
+Salt Pile,0.2,16,Reflect Damage,2.67,60,Fortify Restoration Power,3.33,60,Burden,3.33,60,Fortify Magicka Regeneration,2.67,300
+Saltrice,0.1,39,Restore Stamina,0.96,10,Fortify Magicka,2.67,300,Command,3.33,30,Restore Health,0.96,10
+Scalon Fin,0.1,62,Waterbreathing,0,4,Damage Health,0.44,10,Lingering Damage Magicka,0.52,30,Silence,3.33,30
+Scaly Pholiota,0.25,17,Reflect Damage,2.67,60,Fortify Stamina,2.67,300,Fortify Stamina Regeneration,2.67,300,Fortify Carry Weight,6.67,300
+Scathecraw,0.1,30,Calm,3.33,30,Command,3.33,30,Silence,3.33,30,Lingering Damage Health,0.27,30
+Screaming Maw,0.1,70,Fortify Magicka Regeneration,2.67,300,Fortify Alteration Power,6.67,60,Invisibility,0,4,Fortify Health Regeneration,2.67,300
+Scrib Jelly,0.1,44,Fortify Magicka Regeneration,2.67,300,Muffle,1,4,Cure Disease,1,0,Fortify Stamina Regeneration,2.67,300
+Scrib Jerky,0.2,44,Restore Stamina,0.96,10,Fortify Stamina,2.67,300,Paralysis,3.33,10,Waterbreathing,0,4
+Silverside Perch,0.25,18,Restore Stamina,0.96,10,Fortify Shouts,6.67,60,Calm,3.33,30,Resist Frost,3.33,60
+Skeever Tail,0.2,20,Fortify Shouts,6.67,60,Calm,3.33,30,Waterwalking,0,4,Fortify Power Attacks,3.33,60
+Slaughterfish Egg,0.2,83,Resist Poison,3.33,60,Fortify Pickpocket,3.33,60,Lingering Damage Health,0.27,30,Fortify Stamina,2.67,300
+Slaughterfish Scales,0.1,17,Resist Frost,3.33,60,Lingering Damage Health,0.27,30,Muffle,1,4,Fortify Block,3.33,60
+Sload Soap,0.1,55,Resist Fire,3.33,60,Fear,3.33,30,Fortify Conjuration Power,6.67,60,Fortify Alteration Power,6.67,60
+Small Antlers,0.1,20,Fortify Speed,1.33,60,Fortify Restoration Power,3.33,60,Lingering Damage Stamina,0.52,30,Weakness to Shock,6.66,60
+Small Pearl,0.1,18,Restore Stamina,0.96,10,Fortify One-handed,3.33,60,Fortify Restoration Power,3.33,60,Resist Frost,3.33,60
+Snowberries,0.1,17,Resist Fire,3.33,60,Fortify Sneak Attacks,3.33,60,Resist Frost,3.33,60,Resist Shock,3.33,60
+Spadefish,0.25,23,Restore Health,0.96,10,Fortify Lockpicking,3.33,60,Fortify Pickpocket,3.33,60,Cure Disease,1,0
+Spawn Ash,0.1,31,Command,3.33,30,Resist Fire,3.33,60,Fortify Sneak Attacks,3.33,60,Silence,3.33,30
+Spider Egg,0.2,18,Damage Stamina,0.88,10,Damage Weapon,3.33,60,Fortify Lockpicking,3.33,60,Fortify Marksman,3.33,60
+Spriggan Sap,0.2,21,Damage Armor,19.95,60,Fortify Sneak Attacks,3.33,60,Fortify Armor Rating,6.67,300,Fortify Alteration Power,6.67,60
+Stoneflower Petals,0.1,45,Weakness to Shock,6.66,60,Fortify One-handed,3.33,60,Fortify Magicka,2.67,300,Fortify Power Attacks,3.33,60
+Swamp Fungal Pod,0.25,34,Resist Shock,3.33,60,Lingering Damage Magicka,0.52,30,Paralysis,3.33,10,Waterwalking,0,4
+Taproot,0.5,16,Reflect Damage,2.67,60,Fortify Illusion Power,3.33,60,Fortify Magicka Regeneration,2.67,300,Restore Magicka,0.96,10
+Thistle Branch,0.1,29,Resist Frost,3.33,60,Command,3.33,30,Resist Poison,3.33,60,Muffle,1,4
+Thorn Hook,0.1,18,Lingering Damage Health,0.27,30,Paralysis,3.33,10,Fortify Magicka Regeneration,2.67,300,Fortify Health Regeneration,2.67,300
+Torchbug Thorax,0.1,17,Restore Stamina,0.96,10,Lingering Damage Magicka,0.52,30,Reflect Damage,2.67,60,Fortify Stamina,2.67,300
+Trama Root,0.2,17,Weakness to Shock,6.66,60,Fortify Carry Weight,6.67,300,Damage Magicka,0.88,10,Burden,3.33,60
+Troll Fat,1,18,Resist Poison,3.33,60,Fortify Two-handed,3.33,60,Frenzy,3.33,30,Waterwalking,0,4
+Tundra Cotton,0.1,18,Resist Magic,1.67,300,Fortify Magicka,2.67,300,Fortify Block,3.33,60,Fortify Magicka Regeneration,2.67,300
+Vampire Dust,0.2,16,Invisibility,0,4,Restore Magicka,0.96,10,Fortify Health Regeneration,2.67,300,Cure Disease,1,0
+Void Essence,0.2,59,Restore Health,0.96,10,Fortify Health,2.67,300,Fortify Stamina,2.67,300,Fortify Health Regeneration,2.67,300
+Void Salts,0.2,22,Weakness to Shock,6.66,60,Resist Magic,1.67,300,Become Ethereal,0,4,Fortify Magicka,2.67,300
+Watcher's Eye,0.2,54,Night Eye,0,4,Fortify Magicka,2.67,300,Fortify Illusion Power,3.33,60,Spell Absorption,1.67,60
+Wheat,0.1,19,Restore Health,0.96,10,Fortify One-handed,3.33,60,Fortify Unarmed,3.33,60,Lingering Damage Magicka,0.52,30
+White Cap,0.3,18,Weakness to Frost,6.66,60,Muffle,1,4,Restore Magicka,0.96,10,Silence,3.33,30
+Wisp Stalk Caps,0.1,48,Damage Health,0.44,10,Weakness to Poison,6.66,60,Frenzy,3.33,30,Fortify Stamina Regeneration,2.67,300
+Wisp Wrappings,0.1,69,Restore Stamina,0.96,10,Fortify Destruction Power,3.33,60,Fortify Carry Weight,6.67,300,Resist Magic,1.67,300
+Withering Moon,0.1,55,Restore Magicka,0.96,10,Spell Absorption,1.67,60,Fortify Armor Rating,6.67,300,Cure Disease,1,0
+Worm's Head Cap,0.2,56,Fortify Lockpicking,3.33,60,Night Eye,0,4,Fortify Carry Weight,6.67,300,Burden,3.33,60
+Yellow Mountain Flower,0.1,19,Resist Poison,3.33,60,Fortify Restoration Power,3.33,60,Fortify Health,2.67,300,Fortify Unarmed,3.33,60

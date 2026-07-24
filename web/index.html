@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Skyrim Alchemy</title>
+<script src="./script.js"></script>
+<script defer src="./alpinejs.min.js"></script>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: system-ui, sans-serif; font-size: 14px; background: #1a1a2e; color: #e0e0e0; }
+nav { display: flex; gap: 4px; padding: 8px; background: #16213e; border-bottom: 1px solid #0f3460; }
+nav button {
+  padding: 6px 16px; border: 1px solid #0f3460; background: #1a1a2e;
+  color: #e0e0e0; cursor: pointer; border-radius: 4px;
+}
+nav button:hover { background: #0f3460; }
+nav button.active { background: #0f3460; border-color: #e94560; }
+#content { padding: 12px; }
+.controls { display: flex; gap: 8px; margin-bottom: 10px; }
+.controls button {
+  padding: 4px 10px; border: 1px solid #444; background: #16213e;
+  color: #ccc; cursor: pointer; border-radius: 3px; font-size: 13px;
+}
+.controls button:hover { background: #0f3460; }
+.toggle-label {
+  display: flex; align-items: center; gap: 5px;
+  font-size: 13px; color: #ccc; cursor: pointer; user-select: none;
+}
+.toggle-label input[type=checkbox] { accent-color: #e94560; }
+.potion {
+  padding: 6px 10px; margin-bottom: 6px;
+  background: #16213e; border: 1px solid #0f3460; border-radius: 4px;
+}
+.potion .ings { font-weight: 600; margin-bottom: 2px; }
+.potion .effects { color: #a0c4ff; font-size: 12px; }
+.effect-list, .find-effects, .ing-grid {
+  columns: 220px; column-gap: 4px;
+  margin-bottom: 12px;
+}
+.effect-item, .find-effects label, .ing-item {
+  display: block; padding: 4px 8px; margin-bottom: 4px; cursor: pointer;
+  background: #16213e; border: 1px solid #0f3460; border-radius: 3px;
+  break-inside: avoid;
+}
+.effect-item:hover, .find-effects label:hover, .ing-item:hover { background: #0f3460; }
+.find-effects input[type=checkbox] { display: none; }
+.find-effects label:has(input:checked), .ing-item.owned { background: #0f3460; border-color: #e94560; }
+.effect-item.active { background: #0f3460; border-color: #e94560; }
+#effect-detail { margin-top: 12px; }
+.ing-table { width: 100%; border-collapse: collapse; }
+.ing-table th, .ing-table td { padding: 5px 8px; border-bottom: 1px solid #0f3460; text-align: left; }
+.ing-table th { color: #a0c4ff; }
+#ing-tip {
+  display: none; position: fixed; z-index: 1000;
+  background: #0d1117; border: 1px solid #0f3460; border-radius: 4px;
+  padding: 6px 10px; min-width: 160px; pointer-events: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5); font-size: 13px;
+}
+.tip-name { color: #e0e0e0; padding: 2px 0; }
+[x-cloak] { display: none !important; }
+</style>
+</head>
+<body x-data="app()" x-cloak>
+<nav>
+  <button :class="{active: tab === 'brew'}"    @click="tab = 'brew'">Brew</button>
+  <button :class="{active: tab === 'effects'}" @click="tab = 'effects'">Effects</button>
+  <button :class="{active: tab === 'find'}"    @click="tab = 'find'">Find</button>
+</nav>
+<div id="content">
+
+  <!-- Brew tab -->
+  <div x-show="tab === 'brew'">
+    <div class="controls">
+      <button @click="reset()">Reset</button>
+      <label class="toggle-label">
+        <input type="checkbox" :checked="allowMixed" @change="toggleMixed()">
+        Allow mixed effects
+      </label>
+    </div>
+    <div class="ing-grid">
+      <template x-for="(ing, i) in ingredients" :key="i">
+        <div class="ing-item" :class="{owned: isOwned(i)}" @click="toggle(i)"
+          :data-idx="i" x-text="ing.name"></div>
+      </template>
+    </div>
+<div class="potions" x-show="potions.length > 0">
+      <template x-for="(pot, j) in potions" :key="j">
+        <div class="potion">
+          <div class="ings" x-text="pot.ingredients.map(i => i.name).join(' + ')"></div>
+          <div class="effects" x-text="pot.effects.join(', ')"></div>
+        </div>
+      </template>
+    </div>
+    <p x-show="owned.length === 0" style="color:#666;margin-top:8px">
+      Click ingredients you own to see valid potions.
+    </p>
+  </div>
+
+  <!-- Effects tab -->
+  <div x-show="tab === 'effects'">
+    <div class="effect-list">
+      <template x-for="(eff, i) in effects" :key="i">
+        <div class="effect-item" :class="{active: activeEffect === i}"
+          @click="selectEffect(i)" x-text="eff"></div>
+      </template>
+    </div>
+    <div id="effect-detail" x-show="activeEffect !== null">
+      <h3 x-text="activeEffect !== null ? effects[activeEffect] : ''"
+        style="margin-bottom:8px;color:#a0c4ff"></h3>
+      <table class="ing-table">
+        <thead><tr><th>Ingredient</th></tr></thead>
+        <tbody>
+          <template x-for="ing in activeIngredients" :key="ing.name">
+            <tr><td x-text="ing.name"></td></tr>
+          </template>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Find tab -->
+  <div x-show="tab === 'find'">
+    <div class="find-effects">
+      <template x-for="(eff, i) in effects" :key="i">
+        <label>
+          <input type="checkbox" :checked="isSelectedEffect(i)" @change="toggleSelectedEffect(i)">
+          <span x-text="eff"></span>
+        </label>
+      </template>
+    </div>
+    <div class="potions" x-show="findResults.length > 0">
+      <template x-for="(pot, j) in findResults" :key="j">
+        <div class="potion">
+          <div class="ings" x-text="pot.ingredients.map(i => i.name).join(' + ')"></div>
+          <div class="effects" x-text="pot.effects.join(', ')"></div>
+        </div>
+      </template>
+    </div>
+    <p x-show="selectedEffects.length > 0 && findResults.length === 0" style="color:#666">
+      No combos produce all selected effects.
+    </p>
+  </div>
+
+</div>
+<div id="ing-tip"></div>
+<script>
+(function() {
+  const delayMs = 800;
+  const tip = document.getElementById('ing-tip');
+  let cur = null, timer = null;
+  function cancel() {
+    clearTimeout(timer); timer = null;
+    tip.style.display = 'none'; cur = null;
+  }
+  document.addEventListener('mouseleave', cancel);
+  document.addEventListener('mousemove', function(e) {
+    const item = e.target.closest('.ing-item');
+    if (!item) { cancel(); return; }
+    tip.style.left = (e.clientX + 14) + 'px';
+    tip.style.top  = (e.clientY + 14) + 'px';
+    if (item === cur) return;
+    clearTimeout(timer);
+    tip.style.display = 'none';
+    cur = item;
+    timer = setTimeout(function() {
+      const names = window._alchemyEffects && window._alchemyEffects(+item.dataset.idx);
+      if (names) tip.innerHTML = names.map(n => '<div class="tip-name">' + n + '</div>').join('');
+      tip.style.display = 'block';
+      if (e.clientY + 14 + tip.offsetHeight > window.innerHeight - 8)
+        tip.style.top = (e.clientY - tip.offsetHeight - 8) + 'px';
+    }, delayMs);
+  });
+})();
+</script>
+</body>
+</html>
