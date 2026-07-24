@@ -123,7 +123,6 @@ function app() {
       const d = await fetch('./data.json').then(r => r.json());
       this.effects = d.effects;
       this.ingredients = d.ingredients;
-      window._alchemyEffects = i => d.ingredients[i].effects.map(e => d.effects[e]);
       const s = readCookie();
       this.owned = s.o || [];
       this.allowMixed = !!s.m;
