@@ -17,7 +17,7 @@ nav button {
 nav button:hover { background: #0f3460; }
 nav button.active { background: #0f3460; border-color: #e94560; }
 #content { padding: 12px; }
-.controls { display: flex; gap: 8px; margin-bottom: 10px; }
+.controls { display: flex; gap: 8px; margin-bottom: 10px; min-height: 30px; align-items: center; }
 .controls button {
   padding: 4px 10px; border: 1px solid #444; background: #16213e;
   color: #ccc; cursor: pointer; border-radius: 3px; font-size: 13px;
@@ -67,6 +67,7 @@ nav button.active { background: #0f3460; border-color: #e94560; }
 }
 .tip-name { color: #e0e0e0; padding: 2px 0; }
 [x-cloak] { display: none !important; }
+.tab-desc { color: #888; font-size: 13px; }
 </style>
 </head>
 <body x-data="app()" x-cloak>
@@ -80,7 +81,8 @@ nav button.active { background: #0f3460; border-color: #e94560; }
   <!-- Brew tab -->
   <div x-show="tab === 'brew'">
     <div class="controls">
-      <button @click="reset()">Reset</button>
+      <span class="tab-desc">Select ingredients you own to see valid potions.</span>
+      <button style="margin-left: auto" @click="reset()">Reset</button>
       <label class="toggle-label">
         <input type="checkbox" :checked="allowMixed" @change="toggleMixed()">
         Allow mixed effects
@@ -107,12 +109,12 @@ nav button.active { background: #0f3460; border-color: #e94560; }
       </template>
     </div>
     <p x-show="owned.length === 0" style="color:#666;margin-top:8px">
-      Click ingredients you own to see valid potions.
     </p>
   </div>
 
   <!-- Effects tab -->
   <div x-show="tab === 'effects'">
+    <div class="controls"><span class="tab-desc">Select an effect to see which ingredients provide it.</span></div>
     <div class="effect-list">
       <template x-for="(eff, i) in effects" :key="i">
         <div class="effect-item" :class="{active: activeEffect === i}"
@@ -135,6 +137,7 @@ nav button.active { background: #0f3460; border-color: #e94560; }
 
   <!-- Find tab -->
   <div x-show="tab === 'find'">
+    <div class="controls"><span class="tab-desc">Select effects to find ingredient combinations that provide them.</span></div>
     <div class="find-effects">
       <template x-for="(eff, i) in effects" :key="i">
         <label>
